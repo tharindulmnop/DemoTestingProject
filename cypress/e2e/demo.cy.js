@@ -19,8 +19,9 @@ describe('template spec', () => {
     cy.wait(3000)
     cy.contains('Delete').should('not.exist')
 
-    //cy.go('back')
-    //this is master
+    cy.go('back')
+    //this is demo
+
   });
 
   it('Basic Authentication', () => {

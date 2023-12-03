@@ -20,7 +20,7 @@ describe('template spec', () => {
     cy.contains('Delete').should('not.exist')
 
     //cy.go('back')
-
+    //this is master
   });
 
   it('Basic Authentication', () => {

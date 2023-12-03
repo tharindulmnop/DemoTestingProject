@@ -19,7 +19,7 @@ describe('template spec', () => {
     cy.wait(3000)
     cy.contains('Delete').should('not.exist')
 
-    cy.go('back')
+    //cy.go('back')
 
   });
 
